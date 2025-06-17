@@ -64,8 +64,8 @@
             bindings = <
                 &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7      &kp N8      &kp N9     &kp N0     &kp DEL
                 &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS    &kp STAR    &kp LPAR  &kp RPAR
-                &kp LBKT  &kp LBRC &kp RBRC  &kp RBKT  &kp BSLH  &kp GRAVE  &kp MINUS  &kp UNDER  &kp EQUAL  &kp PLUS
-                &kp N0   &trans  &trans  &trans  &trans  &kp HOME  &kp END   &kp N0
+                &kp LBRC  &kp RBRC &kp PLUS  &kp UNDER  &kp BSLH  &kp GRAVE  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
+                &kp N0   &trans  &kp LG(LS(S))  &trans  &trans  &kp DOWN  &kp UP   &kp N0
             >;
         };
 
@@ -75,7 +75,7 @@
                 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR
                 &bootloader  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans        &studio_unlock
                 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &out OUT_TOG
-                &kp N0   &trans  &trans  &trans  &trans        &out OUT_BLE        &out OUT_USB &kp N0
+                &kp N0   &trans  &trans  &trans  &kp LC(LA(DEL))        &out OUT_BLE        &out OUT_USB &kp N0
             >;
         };
 
@@ -84,7 +84,7 @@
                 &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P
                 &kp ESC    &kp A      &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L
                 &kp LSHIFT &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp UP      &kp RIGHT      &kp PERIOD
-                &kp N0      &kp LCTRL      &kp LGUI      &kp SPACE      &mo 1      &kp LEFT    &kp DOWN      &kp N0
+                &kp N0      &kp LCTRL      &kp LGUI      &kp SPACE      &kp BSPC      &kp LEFT    &kp DOWN      &kp N0
             >;
         };
     };
